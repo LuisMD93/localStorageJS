@@ -1,0 +1,192 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+
+img{
+
+    width: 90px;
+    height: 90px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+main{
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin:15px ;
+    column-gap: 15px;
+    margin-top: 40px;
+}
+
+
+main section:nth-child(1) form{
+
+    border: black solid 2px;;
+    font-size: 20px;
+
+}
+
+.presentacion{
+
+    margin-top: 25px;
+    /*background: rgb(190, 171, 2);*/
+    background: #00ffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+p{
+    border-left: black solid 1px;
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.btn-Borrar{
+
+    border-radius: 8px;
+    background-color: rgb(253, 106, 106);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-escoger{
+
+  
+    border-radius: 8px;
+    background: paleturquoise;
+    margin-left: 5px;
+}
+
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.group input{
+
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 3px;
+    background: white;
+    
+}
+
+
+main section form:nth-child(1){
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+
+#bnt-Almacenar{
+    margin-top: 15px;
+    padding: 8px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 90px;
+    background: blue;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+}
+
+#btn-modificar{
+    margin-top: 15px;
+    padding: 8px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 90px;
+    background: blue;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+}
+
+
+main section div:nth-child(1) h2{
+    background: blue;
+}
+
+
+/*********************************************/
+
+#formulario-update{
+
+     display: grid;
+     padding: 30px;
+     width: 85%;
+
+}
+
+
+h2{
+    text-align: center;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav h1{
+
+    border-radius:8px;
+    background: yellow;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px black;
+    color: black;
+}
+
+
+nav h1:hover{
+
+  background: green;
+  color: black;
+}
+
+.Rp{
+
+    border: solid 2px black;
+    margin-right: 10px;
+}
+
+main .Rp div:first-child h2{
+    
+    background: blue;
+}

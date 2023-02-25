@@ -1,0 +1,187 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(238, 236, 236); /* Variable*/
+}
+
+header{
+     display: grid;
+     grid-template-columns: 15% 80%;
+     border: solid #00b7ff 2px;        /* Variable*/
+     background: black;            /* Variable*/
+     color: rgb(196, 189, 151);    /* Variable*/
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;                  /* Variable*/    
+     margin:10px;
+}
+
+header img{
+
+    width: 80px;
+    height: 90px;
+}
+
+header h1{
+
+    font-size: 65px;
+    text-align: center;
+    margin-top: 10px;
+
+    
+}
+/*------------------------------------------------------------------------*/
+
+
+main{
+
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    column-gap: 30px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+
+
+main section section:nth-child(2){
+
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+    border-bottom: black solid 2px;
+    padding: 20px;
+    
+}
+
+
+#titulo{
+
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+    border-top: black solid 2px;  
+    margin-top: 10px;
+}
+
+div h2{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+
+.group{
+
+    /*border: rgb(56, 56, 231) solid 2px;*/
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 5px;
+}
+
+.group input, select , option{
+
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 3px;
+    background: white;
+}
+
+#descontar{
+
+    width: 30%;
+}
+
+#btn-sale{
+
+    background: rgb(2, 190, 2);
+    margin-left: 10px;
+    padding: 12px;
+    width: 20%;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.desc{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.presentacion{
+
+    margin-top: 25px;
+    /*background: rgb(190, 171, 2);*/
+    background: #00b7ff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+
+}
+
+.present{
+
+    margin-top: 25px;
+    /*background: rgb(190, 171, 2);*/
+    background:rgb(255, 253, 253);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+p{
+    border: solid black 1px;
+    padding: 3px;
+}
+
+.btn-escoger{
+
+    border: solid black 1px; 
+    padding: 3px;
+    background: rgb(110, 255, 243);
+    font-weight: bold;
+    border-radius:  8px;
+}
+
+footer{
+
+    padding: 10%;
+}
+
+.av{
+    margin-top: 20px;
+    margin-left: 27%;
+    border: greenyellow solid 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+    height: 80px;
+}
+
+nav a h1{
+
+    border: black solid 1px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+    background: red;
+    color: black;
+    border-radius:8px;
+ } 
+
+a{
+    text-decoration: none;
+}
+
+main section:nth-child(1) form{
+
+    font-size: 20px;
+
+}

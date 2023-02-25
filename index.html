@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="servidor/jquery-3.5.1.slim.min.js"></script>
+    <script src="servidor/app.js"></script>
+    <title>PAGINA PARCIAL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="alertifyjs/css/alertify.css">
+	<link rel="stylesheet" type="text/css" href="alertifyjs/css/themes/default.css">
+
+	<script src="servidor/jquery-3.2.1.min.js"></script>
+	<script src="alertifyjs/alertify.js"></script>
+</head>
+<body>
+
+      <header>
+              <img src="pictures/bahia.png" alt="Loading...">
+              <h1>autoctonos del pacifico</h1>
+      </header>
+
+      <main>
+
+        <section>
+
+             <div id="titulo">
+                  <h2>Registro de ventas</h2>
+             </div>   
+  
+             <section>
+              <form id="formularioVender">
+
+                 <div class="group">
+                      <label for="nombre">Nombre producto:</label>
+                      <input type="text" name="nombrep" id="nombrep" disabled>
+                  </div>
+
+                  <div class="group">
+                      <label for="precio">Precio producto:</label>
+                      <input type="text" name="precio" id="precio"  disabled>
+                  </div>
+
+                  <div class="group">
+                        <label for="select-descontar">Aplicar descuento</label>
+                        <select name="descontar" id="descontar">
+                            <option value="si">si</option>
+                            <option value="no">no</option>
+                        </select>
+                    </div>
+            
+
+                  <button type="submit" id="btn-sale">Vender</button>
+
+              </form>
+            </section>
+
+             <div class="desc">
+              <span id="descuento">View</span>
+             </div>
+
+             <nav>
+                <a href="registrarProducto.html"><h1>+ productos</h1></a></li>
+             </nav>
+     
+        </section>
+
+
+        <div class="disponibles">
+
+           <h2 class="h2_">Productos disponibles</h2>
+            <ul id="select_producto">
+  
+  
+            </ul>
+             </div>
+  
+          
+             <div class="Productos-vendidos">
+
+                <h2>Productos vendidos</h2>
+             
+                <ul id="_vendidos">
+          
+          
+                </ul>
+             </div>
+            
+      </main>
+    
+
+         
+
+      <footer>
+
+                                
+      </footer>
+    
+</body>
+</html>  

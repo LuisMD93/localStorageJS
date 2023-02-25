@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="alertifyjs/css/alertify.css">
+	<link rel="stylesheet" type="text/css" href="alertifyjs/css/themes/default.css">
+	<script src="servidor/jquery-3.2.1.min.js"></script>
+    <script src="alertifyjs/alertify.js"></script>
+    
+    <script src="servidor/jquery-3.5.1.slim.min.js"></script>
+    <script src="servidor/app.js"></script>
+    <title>REGISTRAR PRODUCTO</title>
+    <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+
+    <header>
+            <h1>gestionar productos</h1>
+            <!--img src="pictures/isla-bonita.jpg" alt=""-->
+    </header>
+
+
+   <main>
+
+         <section>
+
+            <div>
+                    <h2>Registro producto</h2>
+            </div>
+
+            <form id="formulario">          
+  
+                    <input type="hidden" id="dni" name="dni">
+                    <div class="group">
+                        <label for="nombre">Nombre producto:</label>
+                        <input type="text" name="nombres" id="nomp">
+                    </div>
+  
+                    <div class="group">
+                        <label for="Descripcion">Descripc&iacute;on:</label>
+                        <input type="text" name="desc" id="desc">
+                    </div>
+  
+                    <div class="group">
+                        <label for="Precio">Precio:</label>
+                        <input type="number" name="precio" id="precio">
+                    </div>
+  
+                    <div class="group">
+                        <label for="Cantidad">Cantidad:</label>
+                        <input  type="number" name="cant" id="cant">
+                    </div>
+  
+        
+                <button type="submit" id="bnt-Almacenar">Guardar</button>
+                <button type="submit" id="btn-modificar">UpDate</button>
+        
+        
+             </form>
+
+             <nav>
+                <a href="index.html"><h1>Registro ventas</h1></a>
+            </nav>
+        
+         </section>
+
+
+          
+         <div class="Rp">
+
+            <div>
+                <h2>Productos registrados</h2>
+            </div>
+
+            <ul id="_producto">
+ 
+ 
+            </ul>
+         </div>
+
+
+
+         <!---div>
+
+            <div>
+                <h2>Modificar productos</h2>
+            </div>
+
+              <form id="formulario-update">
+
+                 <ul>
+                    <li><input type="text" id="nuevo_nombre"></li>
+                    <li><input type="text" id="nueva_desripcion"></li>
+                    <li><input type="number" id="nuevo_precio"></li>
+                    <li><input type="number" id="nueva_cantidad"></li>
+                    <li><button id="btn-modificar">Actualizar</button></li>
+                   </ul> 
+
+              </form>
+              <form id="">
+                
+                <input type="number" id="quest_cod">
+                <button  id="btn-quest-update" >Editar</button> 
+
+              </form>
+              
+         </div---->
+
+        
+
+   </main>
+
+
+     <footer>
+              
+     </footer>
+
+    
+</body>
+</html>
